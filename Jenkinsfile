@@ -60,7 +60,8 @@ pipeline {
 
             steps {
 
-                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/sunithabidugu/Payment-Service.git'
+                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/Nissi-1314/Payment-Service.git
+'
 
             }
 
@@ -84,7 +85,7 @@ pipeline {
 
             steps {
 
-                    bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar -Dsonar.login=admin -Dsonar.password=Sunitha@2028'
+                    bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar -Dsonar.login=admin -Dsonar.password=Nissi@1314'
 
                 }
 
